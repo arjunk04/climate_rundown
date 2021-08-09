@@ -14,12 +14,21 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Arjun Khanna
-  tagline: "[...]"
+  title: HRS Environmental Resource Center
+  tagline: "..."
   date_format: "%b %-d, %Y"
   style: black
-  showNav: false
+  showNav: true
   showPicker: false
+  navigation:
+    - title: Home Page
+      url: "/"
+    - title: Information
+      url: "/info"
+    - title: Policy
+      url: "/policy"
+    - title: Action
+      url: "/action"
 
   # generate social links in footer
  

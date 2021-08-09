@@ -1,0 +1,4 @@
+---
+layout: filteredHome
+categoryFilter: Information
+---

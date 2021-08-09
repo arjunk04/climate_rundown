@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>{{ page.title }}</title>
+	<link rel="stylesheet" href="{{ "/assets/css/splash.css" | relative_url }}">
+</head>
+
+<body>
+    <div class="bgimg-1">
+        <div class="caption"><span class = "border">{{ page.titleText }}</span></div>
+        <div class="caption" id = "scroll">
+            <a href = "#scroll"><span class = "border">Scroll down</span></a>
+        </div>
+    </div>
+    <div class="content" id = "mid">
+		<table>
+			<tr>
+				<td>
+					<a href = " {{ page.firstButtonLink }} ">
+						<button class = "tablebutton">{{ page.firstButtonText }}</button>
+					</a>
+				</td>
+				<td>
+					<a href = "{{ page.secondButtonLink}}">
+						<button class = "tablebutton">{{ page.secondButtonText }}</button>
+					</a>
+				</td>
+				<td>
+					<a href = "{{ page.thirdButtonLink }}">
+						<button class = "tablebutton"> {{ page.thirdButtonText }}</button>
+					</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+    <div class = "bgimg-2">
+        <div class="caption">
+            <span class="border">{{ page.finalText }}</span>
+        </div>
+    </div>
+
+</body>
+</html>
