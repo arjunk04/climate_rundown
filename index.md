@@ -3,7 +3,7 @@ layout: splash
 title: The Climate Rundown
 titleText: The Climate Rundown
 firstButtonLink: "info"
-firstButtonText: "Information"
+firstButtonText: "Info"
 secondButtonLink: "policy"
 secondButtonText: "Policy"
 thirdButtonLink: "action"
