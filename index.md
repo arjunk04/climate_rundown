@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: HRSERC
-titleText: HRS Environmental Resource Center
+title: The Climate Rundown
+titleText: The Climate Rundown
 firstButtonLink: "info"
 firstButtonText: "Information"
 secondButtonLink: "policy"

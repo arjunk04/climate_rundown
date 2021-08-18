@@ -1,70 +1,67 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-body, html {
-  height: 100%;
-  margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
-  scroll-behavior: smooth;
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15pt/1.8 "Lato", sans-serif;
+    color: #777;
+    scroll-behavior: smooth;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  position: relative;
-  opacity: 1;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .blank {
     height: 50%;
     opacity: 0;
 }
+
 .bgimg-1 {
-  background-image: url("parallax.jpg");
-  min-height: 100%;
+    background-image: url("parallax.jpg");
+    min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("parallax2.jpeg");
-  min-height: 100%;
-}
-
-.bgimg-3 {
-  background-image: url("img_parallax3.jpg");
-  min-height: 400px;
+    background-image: url("parallax2.jpeg");
+    min-height: 100%;
 }
 
 .caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #777;
-  font-family: Courier New;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #777;
+    font-family: Courier New;
 }
 
 .caption span.border {
-  background-color: #333000;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
+    background-color: #333000;
+    color: #fff;
+    padding: 18px;
+    font-size: 25pt;
+    letter-spacing: 10px;
 }
 
 #scroll {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
     top: 95%;
-    font-size: 18px;
+    font-size: 18pt;
     height: 10%;
 }
 
 #scroll span.border {
-	margin: 0;
-    font-size: 19px;
+    z-index: 10;
+    font-size: 19pt;
     letter-spacing: 6px;
     opacity: 0.5;
     top: 50%;
@@ -74,22 +71,29 @@ body, html {
     width: 10%;
     border-radius: 150px 150px 0 0;
 }
+
 #scroll a {
-	text-decoration: none;
-	color: #777;
-}
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
+    text-decoration: none;
+    color: #777;
+    top: 50%;
 }
 
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20pt "Lato", sans-serif;
+    color: #111;
+}
+
+
 /* Turn off parallax scrolling for tablets and phones */
+
 @media only screen and (max-device-width: 1024px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-  }
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+    }
 }
 
 .content {
@@ -97,37 +101,120 @@ h3 {
 }
 
 .content table {
-	width: 96%;
-	height: 92%;
-	margin: 2%;
-	text-align: center;
+    width: 96%;
+    height: 92%;
+    margin: 2%;
+    text-align: center;
 }
 
 td a {
-	text-decoration: none;
-	color: #444;
+    text-decoration: none;
+    color: #444;
 }
 
 button:hover {
-	cursor: pointer;
+    cursor: pointer;
 }
+
 .content table td {
-	height: 100%;
-	width: 33%;
+    height: 100%;
+    width: 33%;
 }
+
 .content td button {
-	background-color: #CCCDDD;
-	color: inherit;
-	height: 100%;
-	width: 100%;
-	transition: all 1s;
-	border: none;
-	font-size: 36px;
-	font-family: 'Montserrat', sans-serif;
+    background-color: #CCCDDD;
+    color: inherit;
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+    border: none;
+    font-size: 36pt;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .content td button:hover {
-	background-color: #FFFFFF;
-	box-shadow: 0 50px 150px rgba(145, 92, 182, .4);
-	color: black;
+    background-color: #FFFFFF;
+    box-shadow: 0 50px 150px rgba(145, 92, 182, .4);
+    color: black;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    width: 75px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+
+.scroll-down>label {
+    pointer-events: none;
+    font-family: Courier New;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #dffffd;
+    margin-bottom: 30px;
+}
+
+.scroll-down.arrows span {
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    height: 25px;
+    width: 2px;
+    left: calc(50% - 1px);
+    animation: animateArrows 1.25s infinite linear;
+}
+
+@keyframes animateArrows {
+    0%,
+    40%,
+    100% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 1;
+    }
+}
+
+.scroll-down.arrows span:first-child {
+    top: 35px;
+    animation-delay: 0s;
+}
+
+.scroll-down.arrows span:nth-child(2) {
+    top: 35px;
+    animation-delay: .33s;
+}
+
+.scroll-down.arrows span:last-child {
+    top: 50px;
+    animation-delay: .66s;
+}
+
+.scroll-down.arrows span::before,
+.scroll-down.arrows span::after {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.scroll-down.arrows span::before {
+    transform-origin: bottom;
+    transform: rotate(-45deg);
+}
+
+.scroll-down.arrows span::after {
+    transform-origin: bottom;
+    margin-left: -1px;
+    transform: rotate(45deg);
 }
