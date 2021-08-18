@@ -21,9 +21,9 @@ texture:
   showNav: true
   showPicker: false
   navigation:
-    - title: Home Page
+    - title: Home
       url: "/"
-    - title: Information
+    - title: Info
       url: "/info"
     - title: Policy
       url: "/policy"
