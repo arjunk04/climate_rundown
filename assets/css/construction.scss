@@ -1,0 +1,81 @@
+---
+---
+
+
+@import "theme";
+
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15pt/1.8 "Lato", sans-serif;
+    color: #777;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("construction.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 5vw;
+    a {
+        color: inherit;
+    }
+    ul {
+        list-style-type: none;
+        li {
+            // background-color: #ff9f1c;
+            border: 1px solid #fff;
+            float: left;
+            // margin: 5px;
+            &:not(:first-child) {
+                border-left: 0;
+            }
+            background-color: #515151;
+            color: white;
+
+            padding: 10px 25px;
+            // border-radius: 4px;
+            @include fluidType(15px,
+            17px);
+            transition: background-color .3s ease-in;
+            &:hover {
+                background-color: rgba(#aaa, 0.50);
+                cursor: pointer;
+                color: #333;
+            }
+            &.active {
+                background-color: rgba(#aaa, 0.50);
+                color: #333;
+            }
+        }
+    }
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: #777;
+    font-family: Courier New;
+}
+
+.caption span.border {
+    background-color: #333000;
+    color: #fff;
+    padding: 18px;
+    font-size: 50pt;
+    letter-spacing: 27pt;
+    cursor: default;
+}
