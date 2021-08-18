@@ -1,4 +1,4 @@
 ---
-layout: filteredHome
-categoryFilter: Policy
+layout: construction
+title: Policy
 ---
