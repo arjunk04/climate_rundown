@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Situation Today"
-date:   2021-09-01 09:29:00 -0700
+date:   2021-09-06 09:40:00 -0700
 category: Information
 ---
 # The Situation Today
@@ -16,8 +16,6 @@ We have crept closer and closer to this danger line over time, with no sign of s
 global average temperatures, we must analyze the situation today. We can get a good sense of where we are today by answering these questions:
 1. How much carbon dioxide have we already emitted?
 1. What are carbon emissions like today?
-
-***!!! TODO: Put this into questions !!!***
 
 # Past Emissions
 The good news is that past emissions alone cannot result in warming crossing this 1.5 degree threshold.
