@@ -55,11 +55,15 @@ Moreover, historical data shows us the correlationship between atmospheric CO<su
 As we can see in the following graph, the rise in atmospheric CO<sub>2</sub> has driven the increase in global average temperature
 from pre-industrial levels.
 
+{% comment %}
 ***Check: phrasing***
+{% endcomment %}
 
 ![Image not found](/assets/graphs/temp_and_co2.png)
 
+{% comment %}
 ***TODO: Create my own graph***
+{% endcomment %}
 
 The above graph is from the U.S. Global Change Research Program's report: 
 [*Climate Change Impacts in the United States: The Third National Climate Assessment*](https://www.globalchange.gov/browse/multimedia/global-temperature-and-carbon-dioxide)
@@ -67,16 +71,13 @@ The above graph is from the U.S. Global Change Research Program's report:
 CO<sub>2</sub> is particularly problematic because it persists in the atmosphere for a really long time.
 So, even if humans stop all their carbon dioxide emissions, past emissions will continue to cause temperature increase.
 
-*You can read more about the effects of CO<sub>2</sub> on the planet in another article.*
-
+{% comment %}
 ***TODO: link***
+{% endcomment %}
 
-Fortunately, there is still hope. The United Nation's Intergovernmental Panel on Climate Change estimates that past emissions will likely cause 
-no more than 1.2 degree celsius warming since pre-industrial times. The threshold for dangerous warming is 1.5 degrees celsius, so we still have
-some time.
-
-That said, the situation is still dire.
-If we cannot contain our greenhouse gas emissions, we could reach a point of no return for climate change by 2030.
+While past emissions alone cannot cause us to cross the threshold for dangerous warming, humans have gotten 
+increasingly close to the danger line over time(1.5 degree celsius warming above pre-industrial levels).
+If we cannot contain our greenhouse gas emissions, we could reach a point of no return for climate change as early as 2030.
 
 You can read more about the situation today in [another article]("/"), and the [action](/action/)
 and [policy](/policy/) sections address exactly how we can 'solve' climate change. 
