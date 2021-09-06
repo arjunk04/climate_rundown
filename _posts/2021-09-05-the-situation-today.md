@@ -16,7 +16,6 @@ We have crept closer and closer to this danger line over time, with no sign of s
 global average temperatures, we must analyze the situation today. We can get a good sense of where we are today by answering these four questions:
 1. Past Emissions
 1. Current Emissions
-1. COVID and Climate Change Today
 
 ***!!! TODO: Put this into questions !!!***
 
@@ -48,5 +47,23 @@ Now that we understand the history of CO
 emissions, we can start to look at the situation today.
 
 # Current Emissions
+Since our main goal is to reduce emissions everywhere, a good first step is to find out which countries have the highest CO
+<sub>2</sub> 
+emissions. 
 
-# COVID and Climate Change Today
+Let's take a look at this graph of carbon emissions by country in 2017: 
+![Image not found](/assets/graphs/co2-emissions-by-country-treemap.png)
+
+As we can see, 27% of the carbon dioxide emitted worldwide comes from China; however, this number may be deceptive, since China is the most populous country 
+in the world. Since a greater population leads to more emissions, we can analyze countries better if we look at their CO
+<sub>2</sub>
+emissions per person.
+
+Here's a graph of carbon emissions per capita across the globe:
+![Image not found](/assets/graphs/co2-emissions-per-capita.png)
+
+As we can see, China has lower per capita emissions than the United States, despite having more emissions overall.
+
+Analyzing both overall and per capita emissions is incredibly important when looking at which countries manage carbon emissions the best.
+
+These graphs might lead one to ask why humans emit so much carbon dioxide? The answer is complicated and one we'll discuss in the next article.
