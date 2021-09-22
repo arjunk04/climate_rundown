@@ -25,6 +25,10 @@ Take a look at this quote from the United Nations' "Global Warming of 1.5 ºC" s
 Past emissions alone are unlikely to raise global-mean temperature to 1.5°C above pre-industrial levels (medium confidence), but past emissions do commit to other changes, such as further sea level rise (high confidence).
 ```
 
+Essentially, carbon dioxide coninues to warms the Earth for decades after it's emission into the atmosphere. So, what this report from the UN
+is telling us is that the carbon that we have already put into the atmosphere will warm the planet further and cause some effects like a rise in sea levels;
+however, it *will not push us past the 1.5°C extreme danger line for climate change*.
+
 Now, to understand how
 CO<sub>2</sub>
 emissions have changed over time, look at this graph from Our World in Data:
@@ -52,7 +56,7 @@ emissions.
 Let's take a look at this graph of carbon emissions across the globe in 2019:
 ![Image not found](/assets/graphs/co2-emissions-by-country-globe.png)
 
-We can see carbon dioxide emission data visualized differently; have a look at the following treemap of 2017 carbon emission data:
+We can see carbon dioxide emission data visualized differently in this graph of 2017 carbon emission data:
 ![Image not found](/assets/graphs/co2-emissions-by-country-treemap.png)
 
 
@@ -71,7 +75,15 @@ Analyzing both overall and per capita emissions is incredibly important when loo
 
 Now that we have a better sense of carbon emissions today, we can start to think about why emissions are so high and how we can reduce them. 
 
+# Summary
+Make no mistake, the situation today *is* dire. However, it's far from hopeless. Nothing is set in stone yet, but our time may run out soon.
+
+Thinking about the situation today and how much time we have left is really stressful, but we have to understand the situation today so that we can
+understand how we go forward from here. We'll be going into this more in future articles, but if there's one thing you should take away from this article, 
+it's that we still have time to fix the situation today.
+
 <hr />
+
 
 # Sources
 All of the graphs from this article were found from Our World in Data's Article
